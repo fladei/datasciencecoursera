@@ -1,5 +1,7 @@
 # 2014/04/20
 # fladei
+# Matrix inversion is a costly computation
+# This set of functions allows the user to cache the inverse of a matrix.
 
 # Creates a special "matrix" object that can cache its inverse
 makeCacheMatrix <-function(x = matrix())
